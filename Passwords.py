@@ -127,6 +127,7 @@ class Passwords(loader.Module):
             
     @loader.command()
     async def passwordhelp(self, message):
+        '''- вывести помощь по модулю'''
         txt = f'<b>Как генерировать пароль в <u>Passwords</u>?</b>\n\n'
         txt += f'Введите команду <code>{self.get_prefix()}password</code>, а после нее текст, в котором должен быть хотя бы один из следующих символов: % $ #\n'
         txt += f'<code>%</code> - вставляет случайную цифру\n<code>$</code> - вставляет случайную букву\n<code>#</code> - вставляет случайный кастомный символ\n\n'
