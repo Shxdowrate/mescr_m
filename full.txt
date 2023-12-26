@@ -2,3 +2,4 @@ Randoms
 AutoCommentPlus
 ShortHelp
 Passwords
+SpeedTypingTest
