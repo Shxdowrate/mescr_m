@@ -22,7 +22,7 @@ import time
 
 __version__ = (1, 0, 0)
 
-class STT(loader.Module):
+class SpeedTypingTest(loader.Module):
     '''Модуль для проверки скоропечати. \nDeveloper: @mescr_m'''
 
     strings = {
