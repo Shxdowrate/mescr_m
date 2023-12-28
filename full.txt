@@ -3,3 +3,4 @@ AutoCommentPlus
 ShortHelp
 Passwords
 SpeedTypingTest
+FastNotes
