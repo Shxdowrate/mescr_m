@@ -22,7 +22,7 @@ import asyncio
 __version__ = (1, 0, 0)
 
 class FastNotes(loader.Module): # Класс
-    '''Модуль для быстрого полученимя заметок.\nDeveloper: @mescr_m'''
+    '''Модуль для быстрого получения заметок.\nDeveloper: @mescr_m'''
 
     strings = {
         'name': 'FastNotes',
