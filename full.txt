@@ -4,3 +4,4 @@ ShortHelp
 Passwords
 SpeedTypingTest
 FastNotes
+NameTime
