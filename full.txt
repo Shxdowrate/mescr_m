@@ -5,3 +5,4 @@ Passwords
 SpeedTypingTest
 FastNotes
 NameTime
+NameProfiles
