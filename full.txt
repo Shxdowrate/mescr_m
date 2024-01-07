@@ -6,3 +6,4 @@ SpeedTypingTest
 FastNotes
 NameTime
 NameProfiles
+BotManager
