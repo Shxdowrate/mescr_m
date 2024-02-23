@@ -7,3 +7,4 @@ FastNotes
 NameTime
 NameProfiles
 BotManager
+EvalLibrary
