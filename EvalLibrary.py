@@ -3,7 +3,7 @@ from .. import loader, utils
 __version__ = (1, 0, 0)
 
 class EvalLibrary(loader.Module):
-    '''Модуль для записи кода. Developer: @mescr_m'''
+    '''Модуль для записи и выполнения кода eval. Developer: @mescr_m'''
 
     strings = {
         'name': 'EvalLibrary',
