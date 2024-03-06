@@ -8,3 +8,4 @@ NameTime
 NameProfiles
 BotManager
 EvalLibrary
+OpenModuleStudio
