@@ -1,7 +1,7 @@
 from .. import loader, utils
 import asyncio
 
-__version__ = (1, 0, 0)
+__version__ = (1, 0, 1)
 
 class OpenModuleStudio(loader.Module):
     '''Модуль для создания и управления микроскриптами eval\nDeveloper: @mescr_m'''
