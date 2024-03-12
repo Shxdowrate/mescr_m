@@ -130,8 +130,6 @@ class UnlimitedRP(loader.Module):
             else:
                 c_words.append(word)
 
-        # {emoji} - случайный эмоджи из списка, {you} - ваш ник, {rp} - текст RP, {user} - ник того, с кем взаимодействуете
-
         # Вывод: 8
         res = ' '.join(c_words)
         text = self.config['form'].format(emoji = random.choice(self.config['emojies']), you = message.sender.first_name, rp = res, user = r.sender.first_name)
