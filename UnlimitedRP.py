@@ -15,7 +15,7 @@
 #└───────────────────────────┘
 #——————————————————————————————————————————————————————————————————
 
-__version__ = (1, 1, 0)
+__version__ = (1, 1, 1)
 
 from .. import loader, utils
 import random
@@ -150,9 +150,9 @@ class UnlimitedRP(loader.Module):
                 user_u = await self.client.get_me()
                 my_first_name = user_u.first_name
             except:
-                my_first_name = r.from_id
+                my_first_name = message.from_id
         else:
-            my_first_name = r.sender.first_name
+            my_first_name = message.sender.first_name
 
         # Вывод: 9
         res = ' '.join(c_words)
